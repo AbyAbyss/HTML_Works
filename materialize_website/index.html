@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Material_Redesign</title>
+    <!--Importing Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Importing materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="fullnavbg">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center grey-text text-darken-4"><span class="fontstyle">Your Company</span></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#" class="grey-text text-lighten-2" style="font-weight:bold">Home</a></li>
+          <li><a href="/about" class="grey-text text-lighten-2" style="font-weight:bold">About</a></li>
+          <li><a href="/services" class="grey-text text-lighten-2" style="font-weight:bold">Services</a></li>
+        </ul>
+        <ul class="side-nav deep-purple lighten-4 fullnavbg" id="mobile-demo">
+          <li><a href="#"><span class="grey-text text-lighten-2">Home</span></a></li>
+          <li><a href="/about"><span class="grey-text text-lighten-2">About</span></a></li>
+          <li><a href="/services"><span class="grey-text text-lighten-2">Services</span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <h1 class="header center grey-text text-lighten-3">Parallax Template</h1>
+            <div class="row center">
+              <h5 class="header col s12 black-text light">A modern responsive front-end framework based on Material Design</h5>
+            </div>
+            <div class="row center">
+              <a href="#" id="download-button" class="btn-large waves-effect waves-purple grey black-text lighten-1 raise">Get Started</a>
+            </div>
+
+          </div>
+      </div>
+      </div>
+</div>
+
+<br>
+<br>
+<div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fugit ex, soluta deleniti sit nulla. Quisquam praesentium esse vitae iure quia veritatis sunt facilis rerum laudantium eveniet at, officiis. Nostrum.</p>
+</div>
+    <!--Importing jQuery and materialize.js-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          <script>
+          // for side sideNav
+          $(".button-collapse").sideNav();
+          // for parallax background
+          $(document).ready(function(){
+      $('.parallax').parallax();
+    });</script>
+</body>
+</html>
