@@ -1,0 +1,71 @@
+body {
+  background-color:white;
+}
+.fullnavbg {background-image:url('../img/bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.parallax-container {
+  height: 205px;
+  padding:0px;
+}
+.fontstyle{
+    font-size:17px;
+    font-weight:bold;
+    font-family: monospace;
+    margin-left: 10px;
+    padding: 40px;
+}
+.discrption{
+  font-size: 15px;
+}
+.showcase{
+  padding: 120px 100px;
+  color: white;
+}
+
+.showcase h1{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.navbar-fixed {position: absolute;z-index:999999999;}
+
+.raise:hover,
+.raise:focus {
+  transform: translateY(-0.35em);
+}
+
+nav ul li:hover {
+   background-color: #7e57c2;
+}
+
+.hover_disable:hover{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.section{
+  padding: 40px 0;
+}
+
+.section h2{
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width:600px){
+  .discrption{
+    font-size: 12px;
+  }
+  .showcase{
+    height: 400px;
+    padding: 60px 0;
+  }
+  .showcase h1{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+}
